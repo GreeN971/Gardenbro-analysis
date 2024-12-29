@@ -1,0 +1,36 @@
+@startuml SystemTopView
+top to bottom direction
+
+package "Third-party applications" {
+    component "Zigbee2MQTT (Z2M)" as z2m
+    component "MQTT Broker Mosquitto" as mqttBroker
+    MQTT - mqttBroker
+    z2m -> MQTT : Use
+}
+
+component GardenBroCore as gbroCore
+gbroCore -down-> MQTT : Communicate with Z2M
+component GardenBroQt as gbroQt
+gbroQt -> gbroCore : Depends on library
+
+
+package "Third-party libraries" as libs {
+    component "Paho MQTT" as pahoMqtt
+    component "nlohmann json" as json
+    component "Qt" as qt
+}
+
+gbroQt -> qt : Depends on
+gbroCore -down-> pahoMqtt  : "  Depends on"
+gbroCore -> json : Depends on
+
+package STM32 {
+    component GardenBroFirmware 
+}
+
+interface "Zigbee 3.0        " as zigbee
+zigbee -up- z2m : Manage connections
+zigbee <- GardenBroFirmware : Use
+
+
+@enduml
