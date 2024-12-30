@@ -1,0 +1,63 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="89Jv54E6gb4h6_oYJ0Oq">
+    <mxGraphModel dx="1728" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uUn7vlXc3kL9_7luofUc-3" value="GardenBro" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="257" y="120" width="823" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-1" value="Manipulovat s modulem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-2" target="uUn7vlXc3kL9_7luofUc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-2" target="uUn7vlXc3kL9_7luofUc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-2" target="uUn7vlXc3kL9_7luofUc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-2" target="uUn7vlXc3kL9_7luofUc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-2" value="Uživatel" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-6" value="Zobrazit data z modulů" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-10" target="uUn7vlXc3kL9_7luofUc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-12" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="uUn7vlXc3kL9_7luofUc-11">
+          <mxGeometry x="0.025" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-10" value="Manipulovat se způsobem zobrazení dat" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-29" value="Zkontrolovat stav modulu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-31" target="uUn7vlXc3kL9_7luofUc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-31" value="Připojit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUn7vlXc3kL9_7luofUc-32" target="uUn7vlXc3kL9_7luofUc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-32" value="Odpojit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uUn7vlXc3kL9_7luofUc-38" value="Exportovat data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
