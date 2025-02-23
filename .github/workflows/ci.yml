@@ -31,5 +31,5 @@ jobs:
           pip3 install -r requirements.txt
       - name: make docs
         run: |
-          cd src
+          cd mkdocs/src
           mkdocs gh-deploy --force
