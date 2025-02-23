@@ -1,1 +1,4 @@
 *.bkp
+.venv
+mkdocs/.venv
+.cache

@@ -1,0 +1,48 @@
+site_name: GardenBro Analysis
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: FiraCode Nerd Font
+  features:
+    - content.tabs.link
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight: #highlighting extensions https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+      linenums: true #enables line numeration
+      use_pygments: true # create highlighting during compile time
+      anchor_linenums: true
+      line_spans: __span # wraps all lines in to span for correct highlighting
+      pygments_lang_class: true 
+  - pymdownx.inlinehilite # highlight in inline blocks
+  - pymdownx.snippets # embedding code into page https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#snippets
+  - pymdownx.superfences
+  - admonition # warning/info/error blocks https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - pymdownx.tabbed: # code blocks with multiple tabs for different languages
+      alternate_style: true
+  - attr_list #without this is not possible to set image size https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#attribute-lists
+plugins:
+  - glightbox #image gallery with zoom https://squidfunk.github.io/mkdocs-material/reference/images/
+  - drawio 
+
+extra_javascript:
+  - resources/javascript/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - resources/stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+nav:
+  - 'index.md'
